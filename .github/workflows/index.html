@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vikash Rajput | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 10%;
+background:rgba(15,23,42,0.85);
+backdrop-filter:blur(8px);
+z-index:1000;
+}
+
+nav h2{
+font-weight:600;
+color:#38bdf8;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-size:14px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:0 10%;
+}
+
+.hero-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.hero img{
+width:260px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.5);
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero h3{
+font-weight:400;
+color:#94a3b8;
+margin-bottom:20px;
+}
+
+.hero p{
+line-height:1.6;
+margin-bottom:25px;
+color:#cbd5f5;
+}
+
+.btn{
+display:inline-block;
+padding:12px 28px;
+border-radius:30px;
+text-decoration:none;
+background:#38bdf8;
+color:#0f172a;
+font-weight:500;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+/* SECTION */
+
+section{
+padding:100px 10%;
+}
+
+section h2{
+text-align:center;
+font-size:36px;
+margin-bottom:50px;
+}
+
+/* ABOUT */
+
+.about{
+max-width:800px;
+margin:auto;
+text-align:center;
+color:#cbd5e1;
+line-height:1.8;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+}
+
+.skill-card{
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:15px;
+text-align:center;
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.08);
+transition:.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-8px);
+background:rgba(255,255,255,0.08);
+}
+
+/* EXPERIENCE */
+
+.timeline{
+max-width:800px;
+margin:auto;
+}
+
+.timeline-item{
+margin-bottom:40px;
+padding:20px;
+border-left:3px solid #38bdf8;
+background:rgba(255,255,255,0.04);
+border-radius:8px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+color:#cbd5e1;
+margin-bottom:25px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+color:#94a3b8;
+border-top:1px solid rgba(255,255,255,0.08);
+}
+
+@media(max-width:900px){
+
+.hero-container{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero img{
+margin:auto;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h2>VR</h2>
+
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-container">
+
+<div>
+<h1>Vikash Rajput</h1>
+<h3>Head – Procurement, Data & Operations</h3>
+
+<p>
+Strategic operations leader specializing in procurement, vendor
+management, and data-driven business optimization. Passionate about
+building scalable processes and improving operational efficiency.
+</p>
+
+<a class="btn" href="https://www.linkedin.com" target="_blank">
+View LinkedIn
+</a>
+
+</div>
+
+<div>
+
+<img src="profile.jpg" alt="Vikash Rajput">
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p class="about">
+
+Experienced professional based in Noida, India with expertise in
+procurement strategy, operational excellence, and data-driven decision
+making. Skilled at managing complex supply chains, optimizing vendor
+relationships, and leading cross-functional teams to deliver business
+impact.
+
+</p>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Core Skills</h2>
+
+<div class="skills">
+
+<div class="skill-card">Procurement Strategy</div>
+<div class="skill-card">Vendor Management</div>
+<div class="skill-card">Supply Chain Optimization</div>
+<div class="skill-card">Operations Management</div>
+<div class="skill-card">Data Analysis</div>
+<div class="skill-card">Business Process Improvement</div>
+
+</div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+<h2>Professional Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>Head – Procurement, Data & Operations</h3>
+<p>Colorgenics Loyalty (Formerly Akkado)</p>
+<p>Leading procurement strategy, vendor partnerships, and operational
+data initiatives to improve efficiency and scale business operations.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Connect</h2>
+
+<div class="contact">
+
+<p>
+Interested in collaboration or referrals? Connect with me on LinkedIn.
+</p>
+
+<a class="btn" href="https://www.linkedin.com" target="_blank">
+Connect on LinkedIn
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Vikash Rajput • Portfolio
+
+</footer>
+
+</body>
+
+</html>
