@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Portfolio
 
 on:
@@ -35,4 +36,6 @@ jobs:
               uses: actions/deploy-pages@v4
 
               
+=======
+>>>>>>> 74beb916807c8a1dbb5fa5555f268b0ee5df4eb9
 
